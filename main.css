@@ -5,11 +5,15 @@
 	box-sizing: border-box;
 }
 
+html, body {
+	max-width: 100%;
+   	overflow-x: hidden;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	background: #000;
-	overflow-x: hidden;
 }
 
 a {
