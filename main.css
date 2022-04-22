@@ -5,15 +5,11 @@
 	box-sizing: border-box;
 }
 
-html, body {
-	max-width: 100%;
-   	overflow-x: hidden;
-}
-
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	background: #000;
+	overflow-x: hidden;
 }
 
 a {
@@ -676,12 +672,12 @@ footer a {
 	.navLinks {
 		position: absolute;
 		z-index: 6;
-		width: 100vw;
+		width: 100%;
 		height: 68vh;
 		background: #000;
 		top: 80px;
-		right: -100vw;
-		display: flex;
+		right: 0;
+		display: none;
 		align-items: center;
 		justify-content: center;
 		transition: 0.4s;

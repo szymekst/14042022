@@ -27,6 +27,7 @@ function isChecked() {
 
 function showMenu() {
 	document.getElementById("menu").style.right = 0;
+	document.getElementById("menu").style.display = "flex";
 	document.getElementById("header").style.background = "#000";
 	
 	document.getElementById("bars").style.cssText = "display: none !important";
@@ -34,7 +35,7 @@ function showMenu() {
 }
 
 function closeMenu() {
-	document.getElementById("menu").style.right = "-100vw";
+	document.getElementById("menu").style.display = "none";
 	document.getElementById("header").style.background = "transparent";
 
 	document.getElementById("bars").style.cssText = "display: block !important";
